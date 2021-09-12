@@ -1,6 +1,11 @@
-apt-get install sudo curl screen vim  htop wget -y 
+apt-get install sudo curl screen vim  htop wget git -y 
 
 useradd -r -m -s /bin/bash zhongzy
+
+passwd root << "EOF"
+zhongzy123
+zhongzy123
+EOF
 
 passwd zhongzy << "EOF"
 zhongzy123
