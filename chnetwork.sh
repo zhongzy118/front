@@ -7,6 +7,4 @@ allow-hotplug ens3
 iface ens3 inet dhcp
 
 EOF
-
-systemctl restart networking 
-ip a
+reboot
