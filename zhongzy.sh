@@ -1,4 +1,5 @@
-apt-get install sudo curl screen vim  htop wget git -y 
+apt-get update
+apt-get install sudo curl screen vim  htop wget git python3 -y 
 
 useradd -r -m -s /bin/bash zhongzy
 
