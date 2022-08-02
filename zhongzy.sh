@@ -1,6 +1,5 @@
 apt-get update
 apt-get install sudo curl screen vim  htop wget git python3 python-setuptools python3-pip -y 
-pip3 install pssh
 
 useradd -r -m -s /bin/bash zhongzy
 
