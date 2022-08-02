@@ -31,4 +31,5 @@ cd /root
 wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/cppla/ServerStatus/master/clients/client-linux.py' 
 wget -N --no-check-certificate -c -t3 -T60 -O ss-plugins.sh https://git.io/fjlbl
 chmod +x ss-plugins.sh
+ip a
 reboot
