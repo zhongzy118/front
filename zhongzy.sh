@@ -29,4 +29,4 @@ cd /root
 wget -N --no-check-certificate -c -t3 -T60 -O ss-plugins.sh https://git.io/fjlbl
 chmod +x ss-plugins.sh
 ip a
-
+bash ss-plugins.sh
